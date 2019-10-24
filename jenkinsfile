@@ -10,13 +10,13 @@ pipeline {
 
 }
 
-		stage ('testing stage){
+		stage ('testing stage'){
 	
 			steps {
 				echo 'mvn test'
 		}
 }
-stage ('Deployment stage){
+stage ('Deployment stage'){
 	
 			steps {
 				echo 'mvn deploy'
